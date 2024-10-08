@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.arrowImage {
+  width: 20px; 
+  height: auto;
+  transition: box-shadow 0.3s ease;
+}
+
+.arrowImage:hover {
+  box-shadow: 0 0 10px rgba(0, 128, 255, 0.7);
+}
+
+.flashcards {
+  border: 1px solid #007BFF;
+  border-radius: 10px;
+  background-color: rgba(0, 123, 255, 0.2);
+  padding: 1rem;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.flashcards:hover {
+  transform: scale(1.05);
+  background-color: red;
+}
+
+.guess {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  justify-content: center; 
+  gap: 10px;
+  
+}
+.navigation {
+  display:flex;
+  justify-content: center;
+  
+}
